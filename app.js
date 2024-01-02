@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const cors = require('cors');
 const router = require('./routes/user');
 const path = require('path');
-const PORT = 8002;
+const PORT = 8000;
 
 const AWS = require('aws-sdk');
 
