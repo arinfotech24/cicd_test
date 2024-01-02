@@ -41,8 +41,8 @@ app.get("/hello",(req, res) => {
   res.send("Hello World updated from cicd!!!!");
 })
 
-app.get("/myapp",(req, res) => {
-  res.send("Hello World updated from cicd!!!!");
+app.get("/myapp-dev",(req, res) => {
+  res.send("Hello World updated from dev branch!!!!");
 })
 router.get('/', function(req, res) {
   res.sendFile('index.html', {root: path.join(__dirname, 'build')});
