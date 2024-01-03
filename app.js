@@ -41,8 +41,8 @@ app.get("/hello",(req, res) => {
   res.send("Hello World updated from cicd!!!!");
 })
 
-app.get("/test-main",(req, res) => {
-  res.send("I am roshan lashkari");
+app.get("/app",(req, res) => {
+  res.send("This is production main server!");
 })
 router.get('/', function(req, res) {
   res.sendFile('index.html', {root: path.join(__dirname, 'build')});
